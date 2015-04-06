@@ -1,6 +1,17 @@
 # ws-node-live-templates
 Live Templates for Node.js/Express development in WebStorm
 
+require
+---
+Abbreviation: require
+
+Description: Require a node.js module
+
+```js
+var $module$ = require('$module$');
+$END$
+```
+
 get
 ---
 Abbreviation: get
