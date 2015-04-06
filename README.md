@@ -55,7 +55,7 @@ Abbreviation: module
 Description: Generate a module
 
 ```js
-var $module_name$ = function($param$) {
+var $module_name$ = {
     $END$
 };
 
@@ -69,7 +69,7 @@ Abbreviation: module
 Description: Generate a module
 
 ```js
-module.exports = function($param$) {
+module.exports = {
     $END$
 };
 ```
