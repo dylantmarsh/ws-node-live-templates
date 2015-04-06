@@ -1,2 +1,64 @@
 # ws-node-live-templates
-Live Templates for Node.js development in WebStorm
+Live Templates for Node.js/Express development in WebStorm
+
+get
+---
+Abbreviation: get
+
+Description: Express get router
+
+```js
+app.get('/$route$', function(req, res) {
+    $END$
+});
+```
+
+post
+---
+Abbreviation: post
+
+Description: Express post router
+
+```js
+app.post('/$route$', function(req, res) {
+    $END$
+});
+```
+
+put
+---
+Abbreviation: put
+
+Description: Express put router
+
+```js
+app.put('/$route$', function(req, res) {
+    $END$
+});
+```
+
+module (version 1)
+---
+Abbreviation: module
+
+Description: Generate a module
+
+```js
+var $module_name$ = function($param$) {
+    $END$
+};
+
+module.exports = $module_name$;
+```
+
+module (version 2)
+---
+Abbreviation: module
+
+Description: Generate a module
+
+```js
+module.exports = function($param$) {
+    $END$
+};
+```
